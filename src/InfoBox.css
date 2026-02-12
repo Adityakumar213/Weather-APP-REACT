@@ -1,0 +1,49 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.MuiCard-root {
+    border-radius: 18px !important;
+    overflow: hidden;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease;
+}
+
+/* Hover lift effect */
+.MuiCard-root:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.2) !important;
+}
+
+/* Image style */
+.MuiCardMedia-root {
+    filter: brightness(0.95);
+}
+
+/* City title */
+.MuiTypography-h5 {
+    font-weight: 700 !important;
+    letter-spacing: 0.7px;
+    margin-bottom: 8px !important;
+}
+
+/* Weather text */
+.MuiTypography-body2 p {
+    margin: 6px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Icon spacing next to city name */
+.MuiTypography-h5 svg {
+    margin-left: 8px;
+    vertical-align: middle;
+}
